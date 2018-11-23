@@ -1,0 +1,9 @@
+[info][19:14:19:984587] Progress start
+[info][19:14:20:027854] main Init video_buf_queue
+[info][19:14:20:129108] Init pulse audio player Init success
+[info][19:14:20:129354] main pcm_obj init success
+[info][19:14:20:134525] main aac_obj init success
+[info][19:14:20:134591] main Init audio_buf_queue_faac
+[info][19:14:20:134664] main create faac encode aac thread success
+[info][19:14:20:134727] In FAACAudioEncFun
+[error][19:14:21:293752] main librtmp connect to RTMP server error

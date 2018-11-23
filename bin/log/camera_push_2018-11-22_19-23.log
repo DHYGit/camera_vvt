@@ -1,0 +1,385 @@
+[info][19:23:19:673501] Progress start
+[info][19:23:19:879157] main Init video_buf_queue
+[info][19:23:20:024100] Init pulse audio player Init success
+[info][19:23:20:024575] main pcm_obj init success
+[info][19:23:20:035923] main aac_obj init success
+[info][19:23:20:036058] main Init audio_buf_queue_faac
+[info][19:23:20:036227] main create faac encode aac thread success
+[info][19:23:20:036592] In FAACAudioEncFun
+[info][19:23:20:384397] main librtmp connect to RTMP server
+[info][19:23:20:384931] main librtmp connect rtmp://video-center.alivecdn.com/live/00044b9c9f20?vhost=play.vvtrobot.com&auth_key=1542887599-0-0-f0199db3033dd938a14ebc297a1e0863
+[info][19:23:20:386156] main create push video thread
+[info][19:23:20:386664] In LibRtmpPushVideoFun
+[info][19:23:20:387045] main create push audio thread
+[info][19:23:20:387315] In LibRtmpPushAudioFun
+[info][19:23:20:387629] main create video fps thread
+[info][19:23:21:387971] LibRtmpVideoFpsFunlive video fps: 0 fps Default fps:25 fps push aud fps :0video pts:0 audio pts:0+++++++++++
+[info][19:23:21:484716] LibRtmpPushAudioFun no audio data
+[info][19:23:21:489494] LibRtmpPushVideoFun no video data
+[info][19:23:22:142543] execute create CameraProvider success
+[info][19:23:22:142734] execute Get 4 cameras
+[info][19:23:22:211810] execute get ICaptureSession interface success
+[info][19:23:22:212053] execute get IOutputStreamSettings interface success
+[info][19:23:22:264936] threadInitialize create FrameConsumer success
+[info][19:23:22:287825] createVideoEncoder create m_VideoEncoder success
+[info][19:23:22:287883] createVideoEncoder set capture plane format success
+[info][19:23:22:288841] createVideoEncoder set output plane format success
+[info][19:23:22:288890] createVideoEncoder set m_VideoEncoder framerate success
+[info][19:23:22:288914] createVideoEncoder set I-frame interval success
+[info][19:23:22:288978] createVideoEncoder set bitrate success
+[info][19:23:22:289003] createVideoEncoder encode h264
+[info][19:23:22:289021] createVideoEncoder set m_VideoEncoder profile
+[info][19:23:22:289041] createVideoEncoder set m_VideoEncoder level success
+[info][19:23:22:289064] createVideoEncoder set rate control mode success
+[info][19:23:22:289100] createVideoEncoder setup output plane success
+[info][19:23:22:309679] createVideoEncoder setup capture plane success
+[info][19:23:22:309748] threadInitialize create video encoder success
+[info][19:23:22:309898] threadInitialize stream on output plane success
+[info][19:23:22:309934] threadInitialize stream on capture plane success
+[info][19:23:22:310179] execute create Request success
+[info][19:23:22:310224] execute get ISourceSettings interface
+[info][19:23:22:310760] threadExecute Stream connect success
+[info][19:23:22:310815] execute start repeat capture request
+[info][19:23:22:388173] LibRtmpVideoFpsFunlive video fps: 0 fps Default fps:25 fps push aud fps :0video pts:0 audio pts:0+++++++++++
+[info][19:23:22:612415] LibRtmpPushAudioFun no audio data
+[info][19:23:22:616864] LibRtmpPushVideoFun no video data
+[error][19:23:23:170154] FAACAudioEncFun encode aac data failed error
+[error][19:23:23:237853] FAACAudioEncFun encode aac data failed error
+[error][19:23:23:293982] FAACAudioEncFun encode aac data failed error
+[info][19:23:23:388282] LibRtmpVideoFpsFunlive video fps: 7 fps Default fps:25 fps push aud fps :1video pts:249 audio pts:64+++++++++++
+[info][19:23:24:388591] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :15video pts:1213 audio pts:1024+++++++++++
+[info][19:23:25:388961] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:2217 audio pts:2048+++++++++++
+[info][19:23:26:389294] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:3222 audio pts:3072+++++++++++
+[info][19:23:27:389614] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:4226 audio pts:4032+++++++++++
+[info][19:23:28:389951] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:5238 audio pts:5056+++++++++++
+[info][19:23:29:392431] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:6243 audio pts:6080+++++++++++
+[info][19:23:30:393016] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:7237 audio pts:7040+++++++++++
+[info][19:23:31:393389] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:8245 audio pts:8064+++++++++++
+[info][19:23:32:393613] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:9246 audio pts:9088+++++++++++
+[info][19:23:33:393823] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:10257 audio pts:10048+++++++++++
+[info][19:23:34:394089] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:11257 audio pts:11072+++++++++++
+[info][19:23:35:394462] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :15video pts:12219 audio pts:12032+++++++++++
+[info][19:23:36:394751] LibRtmpVideoFpsFunlive video fps: 25 fps Default fps:25 fps push aud fps :16video pts:13258 audio pts:13056+++++++++++
+[info][19:23:37:394882] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :16video pts:14221 audio pts:14080+++++++++++
+[info][19:23:38:394971] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:15227 audio pts:15040+++++++++++
+[info][19:23:39:395098] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:16234 audio pts:16064+++++++++++
+[info][19:23:40:395239] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:17237 audio pts:17088+++++++++++
+[info][19:23:41:395369] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:18239 audio pts:18048+++++++++++
+[info][19:23:42:395504] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:19243 audio pts:19072+++++++++++
+[info][19:23:43:395613] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:20257 audio pts:20096+++++++++++
+[info][19:23:44:395956] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:21258 audio pts:21056+++++++++++
+[info][19:23:45:396407] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :16video pts:22223 audio pts:22080+++++++++++
+[info][19:23:46:396839] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:23227 audio pts:23040+++++++++++
+[info][19:23:47:397176] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:24224 audio pts:24064+++++++++++
+[info][19:23:48:397316] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:25229 audio pts:25088+++++++++++
+[info][19:23:49:397566] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:26233 audio pts:26048+++++++++++
+[info][19:23:50:397691] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:27238 audio pts:27072+++++++++++
+[info][19:23:51:397855] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:28242 audio pts:28096+++++++++++
+[info][19:23:52:397972] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:29251 audio pts:29056+++++++++++
+[info][19:23:53:398104] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:30251 audio pts:30080+++++++++++
+[info][19:23:54:398244] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:31256 audio pts:31104+++++++++++
+[info][19:23:55:398462] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:32260 audio pts:32064+++++++++++
+[info][19:23:56:398553] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :16video pts:33223 audio pts:33088+++++++++++
+[info][19:23:57:398784] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:34228 audio pts:34048+++++++++++
+[info][19:23:58:400288] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:35233 audio pts:35072+++++++++++
+[info][19:23:59:400580] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:36239 audio pts:36096+++++++++++
+[info][19:24:00:400697] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:37242 audio pts:37056+++++++++++
+[info][19:24:01:400817] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:38248 audio pts:38080+++++++++++
+[info][19:24:02:400947] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:39251 audio pts:39104+++++++++++
+[info][19:24:03:401193] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:40260 audio pts:40064+++++++++++
+[info][19:24:04:401499] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:41262 audio pts:41088+++++++++++
+[info][19:24:05:401591] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :15video pts:42225 audio pts:42048+++++++++++
+[info][19:24:06:401703] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:43231 audio pts:43072+++++++++++
+[info][19:24:07:401812] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:44238 audio pts:44096+++++++++++
+[info][19:24:08:401960] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:45242 audio pts:45056+++++++++++
+[info][19:24:09:403227] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:46246 audio pts:46080+++++++++++
+[info][19:24:10:403313] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:47252 audio pts:47040+++++++++++
+[info][19:24:11:403452] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:48257 audio pts:48064+++++++++++
+[info][19:24:12:403550] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:49263 audio pts:49088+++++++++++
+[info][19:24:13:403650] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:50268 audio pts:50048+++++++++++
+[info][19:24:14:404924] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :16video pts:51231 audio pts:51072+++++++++++
+[info][19:24:15:405009] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:52236 audio pts:52096+++++++++++
+[info][19:24:16:405146] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:53241 audio pts:53056+++++++++++
+[info][19:24:17:405302] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:54247 audio pts:54080+++++++++++
+[info][19:24:18:405436] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:55251 audio pts:55040+++++++++++
+[info][19:24:19:406722] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:56257 audio pts:56064+++++++++++
+[info][19:24:20:406980] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:57263 audio pts:57088+++++++++++
+[info][19:24:21:407114] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:58267 audio pts:58048+++++++++++
+[info][19:24:22:407227] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :16video pts:59272 audio pts:59072+++++++++++
+[info][19:24:23:407353] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:60235 audio pts:60096+++++++++++
+[info][19:24:24:407456] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:61240 audio pts:61056+++++++++++
+[info][19:24:25:407605] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:62245 audio pts:62080+++++++++++
+[info][19:24:26:407746] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:63250 audio pts:63040+++++++++++
+[info][19:24:27:407850] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:64255 audio pts:64064+++++++++++
+[info][19:24:28:408111] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:65261 audio pts:65088+++++++++++
+[info][19:24:29:408193] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:66265 audio pts:66048+++++++++++
+[info][19:24:30:408303] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:67273 audio pts:67072+++++++++++
+[info][19:24:31:408428] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :16video pts:68234 audio pts:68096+++++++++++
+[info][19:24:32:408590] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:69239 audio pts:69056+++++++++++
+[info][19:24:33:408697] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:70244 audio pts:70080+++++++++++
+[info][19:24:34:408780] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:71249 audio pts:71040+++++++++++
+[info][19:24:35:408869] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:72254 audio pts:72064+++++++++++
+[info][19:24:36:409062] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:73263 audio pts:73088+++++++++++
+[info][19:24:37:409193] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:74263 audio pts:74048+++++++++++
+[info][19:24:38:409270] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:75268 audio pts:75072+++++++++++
+[info][19:24:39:409393] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:76273 audio pts:76096+++++++++++
+[info][19:24:40:409519] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :15video pts:77236 audio pts:77056+++++++++++
+[info][19:24:41:409651] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:78241 audio pts:78080+++++++++++
+[info][19:24:42:409928] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:79246 audio pts:79040+++++++++++
+[info][19:24:43:410124] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:80251 audio pts:80064+++++++++++
+[info][19:24:44:410267] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:81256 audio pts:81088+++++++++++
+[info][19:24:45:410411] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:82261 audio pts:82048+++++++++++
+[info][19:24:46:410505] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:83267 audio pts:83072+++++++++++
+[info][19:24:47:410691] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:84273 audio pts:84096+++++++++++
+[info][19:24:48:410815] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :15video pts:85276 audio pts:85056+++++++++++
+[info][19:24:49:411038] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:86239 audio pts:86080+++++++++++
+[info][19:24:50:411151] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:87248 audio pts:87040+++++++++++
+[info][19:24:51:411308] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:88249 audio pts:88064+++++++++++
+[info][19:24:52:411406] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:89253 audio pts:89088+++++++++++
+[info][19:24:53:411535] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:90260 audio pts:90048+++++++++++
+[info][19:24:54:411769] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:91263 audio pts:91072+++++++++++
+[info][19:24:55:411897] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:92268 audio pts:92032+++++++++++
+[info][19:24:56:412029] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:93273 audio pts:93056+++++++++++
+[info][19:24:57:412152] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :16video pts:94278 audio pts:94080+++++++++++
+[info][19:24:58:412249] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:95241 audio pts:95040+++++++++++
+[info][19:24:59:412364] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:96246 audio pts:96064+++++++++++
+[info][19:25:00:412452] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:97250 audio pts:97088+++++++++++
+[info][19:25:01:412640] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:98255 audio pts:98048+++++++++++
+[info][19:25:02:412786] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:99262 audio pts:99072+++++++++++
+[info][19:25:03:413060] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:100266 audio pts:100096+++++++++++
+[info][19:25:04:413155] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:101270 audio pts:101056+++++++++++
+[info][19:25:05:413246] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :16video pts:102274 audio pts:102080+++++++++++
+[info][19:25:06:413442] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:103237 audio pts:103040+++++++++++
+[info][19:25:07:413561] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:104242 audio pts:104064+++++++++++
+[info][19:25:08:413687] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:105247 audio pts:105088+++++++++++
+[info][19:25:09:413781] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:106257 audio pts:106048+++++++++++
+[info][19:25:10:413909] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:107257 audio pts:107072+++++++++++
+[info][19:25:11:414039] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:108262 audio pts:108032+++++++++++
+[info][19:25:12:414127] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:109266 audio pts:109056+++++++++++
+[info][19:25:13:414208] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:110271 audio pts:110080+++++++++++
+[info][19:25:14:414387] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:111276 audio pts:111040+++++++++++
+[info][19:25:15:415035] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :16video pts:112239 audio pts:112064+++++++++++
+[info][19:25:16:415219] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:113247 audio pts:113088+++++++++++
+[info][19:25:17:415485] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:114249 audio pts:114048+++++++++++
+[info][19:25:18:416224] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:115253 audio pts:115072+++++++++++
+[info][19:25:19:416364] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:116258 audio pts:116096+++++++++++
+[info][19:25:20:416491] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:117263 audio pts:117056+++++++++++
+[info][19:25:21:416629] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:118268 audio pts:118080+++++++++++
+[info][19:25:22:416749] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:119273 audio pts:119040+++++++++++
+[info][19:25:23:416834] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :16video pts:120280 audio pts:120064+++++++++++
+[info][19:25:24:416980] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:121240 audio pts:121088+++++++++++
+[info][19:25:25:417114] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:122245 audio pts:122048+++++++++++
+[info][19:25:26:417206] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:123249 audio pts:123072+++++++++++
+[info][19:25:27:417298] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:124254 audio pts:124096+++++++++++
+[info][19:25:28:417539] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:125259 audio pts:125056+++++++++++
+[info][19:25:29:417689] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:126264 audio pts:126080+++++++++++
+[info][19:25:30:417852] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:127268 audio pts:127040+++++++++++
+[info][19:25:31:417999] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:128275 audio pts:128064+++++++++++
+[info][19:25:32:418103] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:129279 audio pts:129088+++++++++++
+[info][19:25:33:418244] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :15video pts:130241 audio pts:130048+++++++++++
+[info][19:25:34:418328] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:131246 audio pts:131072+++++++++++
+[info][19:25:35:418465] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:132251 audio pts:132096+++++++++++
+[info][19:25:36:418704] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:133256 audio pts:133056+++++++++++
+[info][19:25:37:418846] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:134265 audio pts:134080+++++++++++
+[info][19:25:38:418965] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:135265 audio pts:135040+++++++++++
+[info][19:25:39:419155] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:136270 audio pts:136064+++++++++++
+[info][19:25:40:419316] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:137274 audio pts:137088+++++++++++
+[info][19:25:41:419459] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:138279 audio pts:138048+++++++++++
+[info][19:25:42:419548] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:139284 audio pts:139072+++++++++++
+[info][19:25:43:419645] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :15video pts:140247 audio pts:140032+++++++++++
+[info][19:25:44:419775] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:141252 audio pts:141056+++++++++++
+[info][19:25:45:419968] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:142256 audio pts:142080+++++++++++
+[info][19:25:46:420099] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:143261 audio pts:143040+++++++++++
+[info][19:25:47:420199] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:144266 audio pts:144064+++++++++++
+[info][19:25:48:420377] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:145270 audio pts:145088+++++++++++
+[info][19:25:49:420471] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:146279 audio pts:146048+++++++++++
+[info][19:25:50:420568] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :16video pts:147280 audio pts:147072+++++++++++
+[info][19:25:51:420786] LibRtmpVideoFpsFunlive video fps: 25 fps Default fps:25 fps push aud fps :16video pts:148285 audio pts:148096+++++++++++
+[info][19:25:52:420949] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :15video pts:149247 audio pts:149056+++++++++++
+[info][19:25:53:421055] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:150252 audio pts:150080+++++++++++
+[info][19:25:54:421173] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:151258 audio pts:151040+++++++++++
+[info][19:25:55:421265] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:152262 audio pts:152064+++++++++++
+[info][19:25:56:421523] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:153267 audio pts:153088+++++++++++
+[info][19:25:57:421801] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:154271 audio pts:154048+++++++++++
+[info][19:25:58:421959] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:155276 audio pts:155072+++++++++++
+[info][19:25:59:422042] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:156281 audio pts:156096+++++++++++
+[info][19:26:00:422127] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:157285 audio pts:157056+++++++++++
+[info][19:26:01:422225] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :16video pts:158249 audio pts:158080+++++++++++
+[info][19:26:02:422343] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:159253 audio pts:159040+++++++++++
+[info][19:26:03:422482] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:160258 audio pts:160064+++++++++++
+[info][19:26:04:422574] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:161262 audio pts:161088+++++++++++
+[info][19:26:05:423645] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:162267 audio pts:162048+++++++++++
+[info][19:26:06:423787] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:163272 audio pts:163072+++++++++++
+[info][19:26:07:424054] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:164279 audio pts:164096+++++++++++
+[info][19:26:08:424162] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:165282 audio pts:165056+++++++++++
+[info][19:26:09:424248] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:166287 audio pts:166080+++++++++++
+[info][19:26:10:425361] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :16video pts:167250 audio pts:167104+++++++++++
+[info][19:26:11:425669] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:168254 audio pts:168064+++++++++++
+[info][19:26:12:425813] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:169259 audio pts:169088+++++++++++
+[info][19:26:13:425951] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:170267 audio pts:170048+++++++++++
+[info][19:26:14:426092] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:171267 audio pts:171072+++++++++++
+[info][19:26:15:427277] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:172272 audio pts:172096+++++++++++
+[info][19:26:16:427395] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:173276 audio pts:173056+++++++++++
+[info][19:26:17:427562] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:174281 audio pts:174080+++++++++++
+[info][19:26:18:427677] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:175285 audio pts:175040+++++++++++
+[info][19:26:19:427803] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:176290 audio pts:176064+++++++++++
+[info][19:26:20:429110] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:177294 audio pts:177088+++++++++++
+[info][19:26:21:429251] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :15video pts:178257 audio pts:178048+++++++++++
+[info][19:26:22:429353] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:179261 audio pts:179072+++++++++++
+[info][19:26:23:429612] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:180267 audio pts:180096+++++++++++
+[info][19:26:24:429797] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:181270 audio pts:181056+++++++++++
+[info][19:26:25:430059] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:182280 audio pts:182080+++++++++++
+[info][19:26:26:430229] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:183279 audio pts:183104+++++++++++
+[info][19:26:27:430333] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:184284 audio pts:184064+++++++++++
+[info][19:26:28:430426] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:185288 audio pts:185088+++++++++++
+[info][19:26:29:430557] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:186293 audio pts:186048+++++++++++
+[info][19:26:30:430704] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :16video pts:187256 audio pts:187072+++++++++++
+[info][19:26:31:430823] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:188260 audio pts:188096+++++++++++
+[info][19:26:32:430945] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:189265 audio pts:189056+++++++++++
+[info][19:26:33:431076] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:190269 audio pts:190080+++++++++++
+[info][19:26:34:431183] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:191274 audio pts:191104+++++++++++
+[info][19:26:35:431304] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:192278 audio pts:192064+++++++++++
+[info][19:26:36:431407] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:193283 audio pts:193088+++++++++++
+[info][19:26:37:431549] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:194287 audio pts:194048+++++++++++
+[info][19:26:38:431653] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:195292 audio pts:195072+++++++++++
+[info][19:26:39:431790] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:196297 audio pts:196096+++++++++++
+[info][19:26:40:431879] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :15video pts:197259 audio pts:197056+++++++++++
+[info][19:26:41:432026] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:198265 audio pts:198080+++++++++++
+[info][19:26:42:432201] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:199268 audio pts:199104+++++++++++
+[info][19:26:43:432433] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:200273 audio pts:200064+++++++++++
+[info][19:26:44:432574] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:201277 audio pts:201088+++++++++++
+[info][19:26:45:432680] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:202286 audio pts:202112+++++++++++
+[info][19:26:46:436537] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:203286 audio pts:203072+++++++++++
+[info][19:26:47:436753] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:204291 audio pts:204096+++++++++++
+[info][19:26:48:436835] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:205295 audio pts:205056+++++++++++
+[info][19:26:49:437010] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:206300 audio pts:206080+++++++++++
+[info][19:26:50:437105] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :16video pts:207263 audio pts:207104+++++++++++
+[info][19:26:51:437222] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:208270 audio pts:208064+++++++++++
+[info][19:26:52:437329] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:209275 audio pts:209088+++++++++++
+[info][19:26:53:437423] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:210277 audio pts:210048+++++++++++
+[info][19:26:54:437563] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:211281 audio pts:211072+++++++++++
+[info][19:26:55:437779] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:212286 audio pts:212096+++++++++++
+[info][19:26:56:437970] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:213291 audio pts:213056+++++++++++
+[info][19:26:57:438074] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:214295 audio pts:214080+++++++++++
+[info][19:26:58:438176] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:215299 audio pts:215104+++++++++++
+[info][19:26:59:438280] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :15video pts:216263 audio pts:216064+++++++++++
+[info][19:27:00:438430] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:217267 audio pts:217088+++++++++++
+[info][19:27:01:438753] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:218271 audio pts:218112+++++++++++
+[info][19:27:02:438963] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:219276 audio pts:219072+++++++++++
+[info][19:27:03:439178] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:220281 audio pts:220096+++++++++++
+[info][19:27:04:439272] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:221285 audio pts:221120+++++++++++
+[info][19:27:05:439382] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:222290 audio pts:222080+++++++++++
+[info][19:27:06:439517] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:223294 audio pts:223104+++++++++++
+[info][19:27:07:439631] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:224299 audio pts:224064+++++++++++
+[info][19:27:08:439767] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :16video pts:225262 audio pts:225088+++++++++++
+[info][19:27:09:439929] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:226267 audio pts:226112+++++++++++
+[info][19:27:10:440033] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:227271 audio pts:227072+++++++++++
+[info][19:27:11:440219] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:228279 audio pts:228096+++++++++++
+[info][19:27:12:441389] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:229280 audio pts:229120+++++++++++
+[info][19:27:13:441512] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:230285 audio pts:230080+++++++++++
+[info][19:27:14:441615] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:231289 audio pts:231104+++++++++++
+[info][19:27:15:441733] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:232294 audio pts:232064+++++++++++
+[info][19:27:16:442007] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:233299 audio pts:233088+++++++++++
+[info][19:27:17:443333] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:234304 audio pts:234112+++++++++++
+[info][19:27:18:443437] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:235308 audio pts:235072+++++++++++
+[info][19:27:19:443545] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :16video pts:236271 audio pts:236096+++++++++++
+[info][19:27:20:443683] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:237275 audio pts:237120+++++++++++
+[info][19:27:21:443901] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:238280 audio pts:238080+++++++++++
+[info][19:27:22:445144] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:239285 audio pts:239104+++++++++++
+[info][19:27:23:445243] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:240291 audio pts:240128+++++++++++
+[info][19:27:24:445418] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:241294 audio pts:241088+++++++++++
+[info][19:27:25:445575] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:242299 audio pts:242112+++++++++++
+[info][19:27:26:445822] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:243303 audio pts:243072+++++++++++
+[info][19:27:27:445942] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:244308 audio pts:244096+++++++++++
+[info][19:27:28:446167] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :16video pts:245271 audio pts:245120+++++++++++
+[info][19:27:29:446295] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:246275 audio pts:246080+++++++++++
+[info][19:27:30:446586] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:247280 audio pts:247104+++++++++++
+[info][19:27:31:446702] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:248285 audio pts:248128+++++++++++
+[info][19:27:32:446905] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:249289 audio pts:249088+++++++++++
+[info][19:27:33:447169] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:250294 audio pts:250112+++++++++++
+[info][19:27:34:447362] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:251298 audio pts:251072+++++++++++
+[info][19:27:35:447648] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:252308 audio pts:252096+++++++++++
+[info][19:27:36:447760] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:253308 audio pts:253120+++++++++++
+[info][19:27:37:447834] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:254313 audio pts:254080+++++++++++
+[info][19:27:38:448954] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :16video pts:255275 audio pts:255104+++++++++++
+[info][19:27:39:449082] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:256280 audio pts:256128+++++++++++
+[info][19:27:40:449171] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:257284 audio pts:257088+++++++++++
+[info][19:27:41:449308] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:258289 audio pts:258112+++++++++++
+[info][19:27:42:449433] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:259294 audio pts:259072+++++++++++
+[info][19:27:43:452671] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:260298 audio pts:260096+++++++++++
+[info][19:27:44:452770] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:261303 audio pts:261120+++++++++++
+[info][19:27:45:452916] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:262308 audio pts:262080+++++++++++
+[info][19:27:46:453068] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:263312 audio pts:263104+++++++++++
+[info][19:27:47:453149] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:264317 audio pts:264128+++++++++++
+[info][19:27:48:453268] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :15video pts:265280 audio pts:265088+++++++++++
+[info][19:27:49:453390] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:266284 audio pts:266112+++++++++++
+[info][19:27:50:453504] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:267289 audio pts:267072+++++++++++
+[info][19:27:51:453617] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:268293 audio pts:268096+++++++++++
+[info][19:27:52:453738] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:269298 audio pts:269120+++++++++++
+[info][19:27:53:453911] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:270306 audio pts:270080+++++++++++
+[info][19:27:54:455070] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:271308 audio pts:271104+++++++++++
+[info][19:27:55:455161] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:272312 audio pts:272128+++++++++++
+[info][19:27:56:455254] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:273317 audio pts:273088+++++++++++
+[info][19:27:57:455337] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :16video pts:274279 audio pts:274112+++++++++++
+[info][19:27:58:455480] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:275284 audio pts:275136+++++++++++
+[info][19:27:59:455613] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:276290 audio pts:276096+++++++++++
+[info][19:28:00:455733] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:277294 audio pts:277120+++++++++++
+[info][19:28:01:455835] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:278298 audio pts:278080+++++++++++
+[info][19:28:02:455969] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:279303 audio pts:279104+++++++++++
+[info][19:28:03:456066] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:280308 audio pts:280128+++++++++++
+[info][19:28:04:456197] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:281312 audio pts:281088+++++++++++
+[info][19:28:05:456292] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:282317 audio pts:282112+++++++++++
+[info][19:28:06:456407] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :15video pts:283322 audio pts:283072+++++++++++
+[info][19:28:07:456593] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :16video pts:284284 audio pts:284096+++++++++++
+[info][19:28:08:456755] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:285289 audio pts:285120+++++++++++
+[info][19:28:09:456906] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:286293 audio pts:286080+++++++++++
+[info][19:28:10:456998] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:287298 audio pts:287104+++++++++++
+[info][19:28:11:457229] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:288304 audio pts:288128+++++++++++
+[info][19:28:12:457470] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:289308 audio pts:289088+++++++++++
+[info][19:28:13:457613] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:290312 audio pts:290112+++++++++++
+[info][19:28:14:457748] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:291317 audio pts:291136+++++++++++
+[info][19:28:15:457909] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:292322 audio pts:292096+++++++++++
+[info][19:28:16:458032] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :16video pts:293285 audio pts:293120+++++++++++
+[info][19:28:17:458152] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:294289 audio pts:294144+++++++++++
+[info][19:28:18:458232] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:295294 audio pts:295104+++++++++++
+[info][19:28:19:458354] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:296298 audio pts:296128+++++++++++
+[info][19:28:20:458467] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:297303 audio pts:297088+++++++++++
+[info][19:28:21:458548] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:298308 audio pts:298112+++++++++++
+[info][19:28:22:458640] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:299312 audio pts:299072+++++++++++
+[info][19:28:23:458850] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:300318 audio pts:300096+++++++++++
+[info][19:28:24:459123] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:301324 audio pts:301120+++++++++++
+[info][19:28:25:459230] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :15video pts:302284 audio pts:302080+++++++++++
+[info][19:28:26:459354] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:303289 audio pts:303104+++++++++++
+[info][19:28:27:459555] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:304294 audio pts:304128+++++++++++
+[info][19:28:28:459816] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:305301 audio pts:305088+++++++++++
+[info][19:28:29:459926] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:306304 audio pts:306112+++++++++++
+[info][19:28:30:460070] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:307308 audio pts:307136+++++++++++
+[info][19:28:31:460214] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:308312 audio pts:308096+++++++++++
+[info][19:28:32:460423] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:309317 audio pts:309120+++++++++++
+[info][19:28:33:460530] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:310322 audio pts:310080+++++++++++
+[info][19:28:34:460636] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :16video pts:311285 audio pts:311104+++++++++++
+[info][19:28:35:460734] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:312290 audio pts:312128+++++++++++
+[info][19:28:36:460858] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:313294 audio pts:313088+++++++++++
+[info][19:28:37:460980] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:314299 audio pts:314112+++++++++++
+[info][19:28:38:461129] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:315303 audio pts:315136+++++++++++
+[info][19:28:39:461678] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:316311 audio pts:316096+++++++++++
+[info][19:28:40:461824] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:317313 audio pts:317120+++++++++++
+[info][19:28:41:462019] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:318318 audio pts:318080+++++++++++
+[info][19:28:42:462160] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:319322 audio pts:319104+++++++++++
+[info][19:28:43:462297] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :16video pts:320327 audio pts:320128+++++++++++
+[info][19:28:44:462442] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:321290 audio pts:321088+++++++++++
+[info][19:28:45:462676] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:322294 audio pts:322112+++++++++++
+[info][19:28:46:462826] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:323299 audio pts:323136+++++++++++
+[info][19:28:47:462977] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:324304 audio pts:324096+++++++++++
+[info][19:28:48:463077] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:325308 audio pts:325120+++++++++++
+[info][19:28:49:463300] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:326313 audio pts:326080+++++++++++
+[info][19:28:50:463580] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:327318 audio pts:327104+++++++++++
+[info][19:28:51:463720] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:328322 audio pts:328128+++++++++++
+[info][19:28:52:463847] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:329327 audio pts:329088+++++++++++
+[info][19:28:53:463971] LibRtmpVideoFpsFunlive video fps: 23 fps Default fps:25 fps push aud fps :16video pts:330290 audio pts:330112+++++++++++
+[info][19:28:54:464111] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:331294 audio pts:331136+++++++++++
+[info][19:28:55:464214] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:332299 audio pts:332096+++++++++++
+[info][19:28:56:464313] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:333304 audio pts:333120+++++++++++
+[info][19:28:57:464425] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:334309 audio pts:334144+++++++++++
+[info][19:28:58:464521] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :15video pts:335313 audio pts:335104+++++++++++
+[info][19:28:59:464628] LibRtmpVideoFpsFunlive video fps: 24 fps Default fps:25 fps push aud fps :16video pts:336318 audio pts:336128+++++++++++

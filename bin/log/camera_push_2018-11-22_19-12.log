@@ -1,0 +1,17 @@
+[info][19:12:23:986744] Progress start
+[info][19:12:24:162246] main Init video_buf_queue
+[info][19:12:24:261116] Init pulse audio player Init success
+[info][19:12:24:261262] main pcm_obj init success
+[info][19:12:24:267668] main aac_obj init success
+[info][19:12:24:267733] main Init audio_buf_queue_faac
+[info][19:12:24:267855] main create faac encode aac thread success
+[info][19:12:24:267952] In FAACAudioEncFun
+[error][19:12:25:522843] main librtmp connect to RTMP server error
+[error][19:12:26:693379] main librtmp connect to RTMP server error
+[error][19:12:27:393020] FAACAudioEncFun encode aac data failed error
+[error][19:12:27:461732] FAACAudioEncFun encode aac data failed error
+[error][19:12:27:520127] FAACAudioEncFun encode aac data failed error
+[error][19:12:27:874970] main librtmp connect to RTMP server error
+[error][19:12:29:059871] main librtmp connect to RTMP server error
+[error][19:12:30:247598] main librtmp connect to RTMP server error
+[error][19:12:31:413265] main librtmp connect to RTMP server error

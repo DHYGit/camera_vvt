@@ -1,0 +1,48 @@
+[info][13:19:58:043750] Progress start
+[info][13:19:58:133656] main Init video_buf_queue
+[info][13:19:58:227621] Init pulse audio player Init success
+[info][13:19:58:227768] main pcm_obj init success
+[info][13:19:58:232934] main aac_obj init success
+[info][13:19:58:233044] main Init audio_buf_queue_faac
+[info][13:19:58:233118] main create faac encode aac thread success
+[info][13:19:58:233176] In FAACAudioEncFun
+[info][13:19:58:553303] main librtmp connect to RTMP server
+[info][13:19:58:553364] main librtmp connect rtmp://video-center.alivecdn.com/live/00044b9c9f20?vhost=play.vvtrobot.com&auth_key=1542952198-0-0-8c96c29e6a7fe6b32466dff9276f5a40
+[info][13:19:58:553638] main create push video thread
+[info][13:19:58:553701] main create push audio thread
+[info][13:19:58:553728] In LibRtmpPushAudioFun
+[info][13:19:58:553782] In LibRtmpPushVideoFun
+[info][13:19:58:553850] main create video fps thread
+[info][13:19:59:554052] LibRtmpVideoFpsFunlive video fps: 0 fps Default fps:25 fps push aud fps :0video pts:0 audio pts:0+++++++++++
+[info][13:19:59:634954] LibRtmpPushVideoFun no video data
+[info][13:19:59:696897] LibRtmpPushAudioFun no audio data
+[info][13:20:00:113018] execute create CameraProvider success
+[info][13:20:00:113165] execute Get 4 cameras
+[info][13:20:00:148086] execute get ICaptureSession interface success
+[info][13:20:00:148178] execute get IOutputStreamSettings interface success
+[info][13:20:00:195161] threadInitialize create FrameConsumer success
+[info][13:20:00:217113] createVideoEncoder create m_VideoEncoder success
+[info][13:20:00:217218] createVideoEncoder set capture plane format success
+[info][13:20:00:218662] createVideoEncoder set output plane format success
+[info][13:20:00:218757] createVideoEncoder set m_VideoEncoder framerate success
+[info][13:20:00:218785] createVideoEncoder set I-frame interval success
+[info][13:20:00:218868] createVideoEncoder set bitrate success
+[info][13:20:00:218912] createVideoEncoder encode h264
+[info][13:20:00:218934] createVideoEncoder set m_VideoEncoder profile
+[info][13:20:00:218972] createVideoEncoder set m_VideoEncoder level success
+[info][13:20:00:218998] createVideoEncoder set rate control mode success
+[info][13:20:00:219052] createVideoEncoder setup output plane success
+[info][13:20:00:240254] createVideoEncoder setup capture plane success
+[info][13:20:00:240351] threadInitialize create video encoder success
+[info][13:20:00:240647] threadInitialize stream on output plane success
+[info][13:20:00:240715] threadInitialize stream on capture plane success
+[info][13:20:00:241053] execute create Request success
+[info][13:20:00:241105] execute get ISourceSettings interface
+[info][13:20:00:246692] threadExecute Stream connect success
+[info][13:20:00:246760] execute start repeat capture request
+[info][13:20:00:554222] LibRtmpVideoFpsFunlive video fps: 0 fps Default fps:25 fps push aud fps :0video pts:0 audio pts:0+++++++++++
+[info][13:20:00:816968] LibRtmpPushAudioFun no audio data
+[error][13:20:01:357715] FAACAudioEncFun encode aac data failed error
+[error][13:20:01:426172] FAACAudioEncFun encode aac data failed error
+[error][13:20:01:495358] FAACAudioEncFun encode aac data failed error
+[info][13:20:01:554343] LibRtmpVideoFpsFunlive video fps: 6 fps Default fps:25 fps push aud fps :1video pts:208 audio pts:64+++++++++++
